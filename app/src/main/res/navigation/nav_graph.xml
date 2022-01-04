@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_profile">
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.elang.myuas.Fragment.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_message"
+        android:name="com.elang.myuas.Fragment.MessageFragment"
+        android:label="Message"
+        tools:layout="@layout/fragment_message" />
+    <activity
+        android:id="@+id/nav_daftar_hadira"
+        android:name="com.elang.myuas.kelas_activity.daftar_hadirA"
+        android:label="Daftar Hadir A"
+        tools:layout="@layout/activity_daftar_hadir" />
+    <activity
+        android:id="@+id/nav_logout"
+        android:name="com.elang.myuas.logout"
+        android:label="Logout"
+        tools:layout="@layout/activity_logout" />
+</navigation>

@@ -16,17 +16,17 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/text_catatan"
-            android:layout_width="194dp"
+            android:id="@+id/text_waktu"
+            android:layout_width="153dp"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="Elang askdladsk "
-            android:textColor="@color/black"/>
+            tools:text="Elang askdladsk " />
 
         <TextView
-            android:id="@+id/text_waktu"
-            android:layout_width="168dp"
+            android:id="@+id/text_catatan"
+            android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:gravity="center"

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MyUAS"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".kelas_activity.contact_me"
+            android:exported="true" />
+        <activity
             android:name=".logout"
             android:exported="true" />
         <activity

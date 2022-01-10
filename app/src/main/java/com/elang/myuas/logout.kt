@@ -19,8 +19,8 @@ class logout : AppCompatActivity() {
             }
             setPositiveButton("Keluar"){dialog,which->
                 dialog.dismiss()
-                startActivity( Intent(this@logout,login::class.java))
-                onStop()
+//                startActivity( Intent(this@logout,login::class.java))
+                onDestroy()
                 finish()
             }
         }

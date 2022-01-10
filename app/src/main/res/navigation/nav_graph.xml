@@ -13,7 +13,7 @@
     <fragment
         android:id="@+id/nav_message"
         android:name="com.elang.myuas.Fragment.MessageFragment"
-        android:label="Message"
+        android:label="Campus Profile"
         tools:layout="@layout/fragment_message" />
     <activity
         android:id="@+id/nav_daftar_hadira"
@@ -25,4 +25,9 @@
         android:name="com.elang.myuas.logout"
         android:label="Logout"
         tools:layout="@layout/activity_logout" />
+    <activity
+        android:id="@+id/nav_contact_me"
+        android:name="com.elang.myuas.kelas_activity.contact_me"
+        android:label="activity_contact_me"
+        tools:layout="@layout/activity_contact_me" />
 </navigation>

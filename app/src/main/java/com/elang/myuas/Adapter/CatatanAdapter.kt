@@ -18,15 +18,17 @@ class CatatanAdapter (
 
     override fun onBindViewHolder(holder: CatatanAdapter.ViewHolder, position: Int) {
         val data = catatans[position]
-        holder.textCatatan.text = data.nama
-        holder.textWaktu.text = data.waktu
+        holder.textCatatan.text = data.nim
+        holder.textNim.text = data.nama
     }
 
     override fun getItemCount() = catatans.size
 
     class ViewHolder(view: View):RecyclerView.ViewHolder(view){
-        val textCatatan = view.findViewById<TextView>(R.id.text_catatan)
-        val textWaktu = view.findViewById<TextView>(R.id.text_waktu)
+        val textNim = view.findViewById<TextView>(R.id.text_catatan)
+        val textCatatan = view.findViewById<TextView>(R.id.text_waktu)
+
+//        val textWaktu = view.findViewById<TextView>(R.id.text_waktu)
     }
 
     public fun setData(data: List<CatatanModel.Data>){

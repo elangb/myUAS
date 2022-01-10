@@ -2,11 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_profile"
-            android:icon="@drawable/ic_profile"
+            android:icon="@drawable/ic_person"
             android:title="Profile"/>
+        <item android:id="@+id/nav_contact_me"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact Me"/>
         <item android:id="@+id/nav_message"
-            android:icon="@drawable/ic_message"
-            android:title="Message"/>
+            android:icon="@drawable/ic_campus"
+            android:title="My Campus Profile"/>
         <item android:id="@+id/nav_daftar_hadira"
             android:icon="@drawable/ic_profile"
             android:title="Kelas A"/>
@@ -16,7 +19,7 @@
         <menu>
             <item android:id="@+id/nav_logout"
                 android:icon="@drawable/ic_logout"
-                android:title="Logout"/>
+                android:title="Keluar"/>
         </menu>
     </item>
 

@@ -3,13 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/absenlist.xml" value="0.33" />
+        <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/absenlist.xml" value="0.25" />
+        <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/activity_contact_me.xml" value="0.33" />
         <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/activity_daftar_hadir.xml" value="0.209375" />
         <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/activity_login.xml" value="0.209375" />
         <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/activity_main.xml" value="0.1953125" />
-        <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/activity_splashscreen.xml" value="0.209375" />
-        <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/fragment_message.xml" value="0.22" />
-        <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/activity_splashscreen.xml" value="0.33" />
+        <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/fragment_message.xml" value="0.25" />
+        <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
         <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/layout/navigation_header.xml" value="0.67" />
         <entry key="..\:/Users/duasa/AndroidStudioProjects/myUAS/app/src/main/res/menu/navigation_menu.xml" value="0.209375" />
       </map>

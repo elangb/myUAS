@@ -16,7 +16,7 @@ class ApiRetrofit {
                 .build()
 
             val retrofit = Retrofit.Builder()
-                .baseUrl("http://192.168.1.15/myuas/")
+                .baseUrl("http://192.168.6.147/myuas/")
                 .client(client)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
@@ -26,7 +26,7 @@ class ApiRetrofit {
 
     private fun getRetrofitClient(): Retrofit{
         return Retrofit.Builder()
-            .baseUrl("http://192.168.1.15/myuas/")
+            .baseUrl("http://192.168.1.8/myuas/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
